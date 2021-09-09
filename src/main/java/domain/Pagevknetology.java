@@ -1,6 +1,6 @@
 package domain;
 
-public class Pagevknetology {}
+public class Pagevknetology
 
 public class VkPost {
     private String id;
@@ -13,7 +13,6 @@ public class VkPost {
     private int numberOfLikes;
     private int numberOfViews;
     private int numberOfReposts;
-    private CommentsInfo commentsInfo;
 
     // + get/set на все поля
 }
@@ -24,12 +23,12 @@ public class CommentsInfo {
     private String coommenterId;
     private String commenterImageId;
     private int commentDate;
-    private int commentImageId;
-    private int commentText;
+    private String commentImageId;
+    private String commentText;
     private int numberOfCommentLikes;
     private boolean myLike;
 
-// + 2 метода Ответить и Сохранить закладки + оставить свой комментарий
+// + методы Ответить и Поделиться + оставить свой комментарий
 // + get/set на все поля
 }
 
